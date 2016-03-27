@@ -131,42 +131,59 @@ end TCL_Generic;
     <a name="circuitnamedbox" val="true"/>
     <a name="circuitvhdl" val="false"/>
     <a name="circuitvhdlpath" val=""/>
-    <wire from="(50,160)" to="(130,160)"/>
+    <wire from="(190,180)" to="(220,180)"/>
     <wire from="(60,80)" to="(90,80)"/>
-    <wire from="(60,110)" to="(70,110)"/>
     <wire from="(130,230)" to="(130,240)"/>
-    <wire from="(150,210)" to="(220,210)"/>
+    <wire from="(310,210)" to="(330,210)"/>
+    <wire from="(150,300)" to="(200,300)"/>
+    <wire from="(90,200)" to="(110,200)"/>
+    <wire from="(310,200)" to="(310,210)"/>
+    <wire from="(70,110)" to="(70,220)"/>
+    <wire from="(200,220)" to="(220,220)"/>
+    <wire from="(50,160)" to="(130,160)"/>
+    <wire from="(200,220)" to="(200,300)"/>
+    <wire from="(120,240)" to="(120,260)"/>
+    <wire from="(60,110)" to="(70,110)"/>
+    <wire from="(120,240)" to="(130,240)"/>
+    <wire from="(120,260)" to="(130,260)"/>
     <wire from="(90,80)" to="(90,200)"/>
     <wire from="(70,220)" to="(110,220)"/>
+    <wire from="(150,210)" to="(190,210)"/>
     <wire from="(130,160)" to="(130,190)"/>
-    <wire from="(90,200)" to="(110,200)"/>
-    <wire from="(130,240)" to="(230,240)"/>
-    <wire from="(70,110)" to="(70,220)"/>
-    <comp lib="0" loc="(230,240)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
+    <wire from="(190,180)" to="(190,210)"/>
+    <wire from="(270,200)" to="(310,200)"/>
+    <comp lib="0" loc="(60,80)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="A"/>
     </comp>
-    <comp lib="0" loc="(220,210)" name="Pin">
+    <comp lib="0" loc="(150,300)" name="Pin">
+      <a name="width" val="4"/>
+      <a name="label" val="E"/>
+    </comp>
+    <comp lib="3" loc="(150,210)" name="Adder">
+      <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(330,210)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
       <a name="label" val="C"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="3" loc="(150,210)" name="Adder">
+    <comp lib="1" loc="(270,200)" name="AND Gate">
       <a name="width" val="4"/>
+    </comp>
+    <comp lib="0" loc="(50,160)" name="Pin">
+      <a name="label" val="CIN"/>
     </comp>
     <comp lib="0" loc="(60,110)" name="Pin">
       <a name="width" val="4"/>
       <a name="label" val="B"/>
     </comp>
-    <comp lib="0" loc="(50,160)" name="Pin">
-      <a name="label" val="CIN"/>
-    </comp>
-    <comp lib="0" loc="(60,80)" name="Pin">
-      <a name="width" val="4"/>
-      <a name="label" val="A"/>
+    <comp lib="0" loc="(130,260)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
 </project>
